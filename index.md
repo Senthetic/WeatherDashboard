@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+      <header class="container-fluid text-center text-white bg-dark p-2">Weather Dashboard</header>
+      <div class="container-fluid">
+        <div class="row">
+          <aside class="col-lg-3 bg-light">
+            <h5 class="mt-1">Search for a City:</h5>
+            <div class="form-inline form-group">
+              <input class="form-control" type="text" id="search-value" />
+              <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i> </button>
+            </div>
+    
+            <ul class="list-group history"></ul>
+          </aside>
+    
+          <div class="col-lg-9">
+            <div id="today" class="mt-3"></div>
+            <div id="forecast" class="mt-3"></div>
+          </div>
+        </div>
+      </div>
+ 
+      
+      <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+      <script src="script.js"></script>
+
+  </body>
+</html>
