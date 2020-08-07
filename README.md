@@ -6,4 +6,4 @@ Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather da
 
 # Screenshot
 
-![](screenshots/
+![](screenshots/weatherHW.png)
